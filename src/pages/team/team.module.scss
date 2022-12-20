@@ -1,0 +1,24 @@
+.btn_create{
+ margin-bottom: 20px;       
+}
+
+.team{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    .team_list{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        height: 100px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+    }  
+    .btn_del_edit{
+        display: flex;
+        justify-content: space-between
+    }
+}

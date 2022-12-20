@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 300px;
+    height: 100vh; 
+    margin-right: 50px;
+    .header_link{
+        margin: 25px auto;
+        .link{
+            margin-top: 25px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 24px;
+                &:hover{
+                   color: #6C97BD;
+                }
+            }
+        }
+    }
+    
+}
